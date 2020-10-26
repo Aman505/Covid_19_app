@@ -1,3 +1,4 @@
+import 'package:covid19app/hospitalList.dart';
 import 'package:flutter/material.dart';
 
 class Help extends StatefulWidget {
@@ -38,6 +39,9 @@ class _HelpState extends State<Help> {
                 ),
                 ),
                 trailing: Icon(Icons.arrow_forward_ios),
+                onTap: (){
+                  Navigator.push(context,MaterialPageRoute(builder: (context)=>hospitalList()));
+                },
               ),
             ),
             SizedBox(height: 10.0,),
