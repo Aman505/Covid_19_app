@@ -7,14 +7,16 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f75fca8-1bc5-4d9e-86cc-e100936a0e6b" name="Default Changelist" comment="" />
+    <list default="true" id="6f75fca8-1bc5-4d9e-86cc-e100936a0e6b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="covid19app" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,6 +43,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -80,12 +83,20 @@
       <option name="project" value="LOCAL" />
       <updated>1604461422062</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adds all files">
+      <created>1604461706611</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604461706611</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hospitaldata" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hospitaldata" />
+    <MESSAGE value="adds all files" />
+    <option name="LAST_COMMIT_MESSAGE" value="adds all files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Notifications" timestamp="1600835288037">
@@ -104,18 +115,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="501" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598505276524" />
-    <state x="93" y="93" width="1350" height="638" key="AVDManager" timestamp="1604461514003">
+    <state x="93" y="93" width="1350" height="638" key="AVDManager" timestamp="1604462972756">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="AVDManager/0.0.1536.824@0.0.1536.824" timestamp="1604461514003" />
+    <state x="93" y="93" width="1350" height="638" key="AVDManager/0.0.1536.824@0.0.1536.824" timestamp="1604462972756" />
     <state x="624" y="178" key="AndroidProcessChooserDialog" timestamp="1603686214575">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="624" y="178" key="AndroidProcessChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1603686214575" />
-    <state x="424" y="0" key="CommitChangelistDialog2" timestamp="1604461417476">
+    <state x="424" y="0" key="CommitChangelistDialog2" timestamp="1604461704981">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604461417476" />
+    <state x="424" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604461704981" />
     <state width="590" height="466" key="DebuggerActiveHint" timestamp="1603685449995">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -136,10 +147,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1491" height="180" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603687793041" />
-    <state x="277" y="55" key="SettingsEditor" timestamp="1601356939745">
+    <state x="277" y="55" key="SettingsEditor" timestamp="1604462972374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601356939745" />
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604462972374" />
     <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1603685353293">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
