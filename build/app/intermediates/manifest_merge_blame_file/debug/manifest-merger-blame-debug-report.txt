@@ -16,22 +16,22 @@
 14-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:8:22-64
 15    <!-- Include required permissions for Google Maps API to run. -->
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\37175d39ce4fdcc81252993e1c072f7c\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
-16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\37175d39ce4fdcc81252993e1c072f7c\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\240e82be4bf532f17f263d602a2ce92b\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\240e82be4bf532f17f263d602a2ce92b\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
 17
 18    <uses-feature
-18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\37175d39ce4fdcc81252993e1c072f7c\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\240e82be4bf532f17f263d602a2ce92b\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
 19        android:glEsVersion="0x00020000"
-19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\37175d39ce4fdcc81252993e1c072f7c\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\240e82be4bf532f17f263d602a2ce92b\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
 20        android:required="true" />
-20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\37175d39ce4fdcc81252993e1c072f7c\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\240e82be4bf532f17f263d602a2ce92b\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
 21
 22    <application
 22-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:9:5-50:19
 23        android:name="io.flutter.app.FlutterApplication"
 23-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:10:9-57
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.1.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\03de50801950aab64f0548832a05435c\core-1.1.0\AndroidManifest.xml:24:18-86
+24-->[androidx.core:core:1.1.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\4a0892dfa16f91250dbd82aa1a8e53bd\core-1.1.0\AndroidManifest.xml:24:18-86
 25        android:debuggable="true"
 26        android:icon="@mipmap/ic_launcher"
 26-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:12:9-43
@@ -108,27 +108,27 @@
 72-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:49:13-30
 73        <!-- Needs to be explicitly declared on P+ -->
 74        <uses-library
-74-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\37175d39ce4fdcc81252993e1c072f7c\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+74-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\240e82be4bf532f17f263d602a2ce92b\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
 75            android:name="org.apache.http.legacy"
-75-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\37175d39ce4fdcc81252993e1c072f7c\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+75-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\240e82be4bf532f17f263d602a2ce92b\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
 76            android:required="false" />
-76-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\37175d39ce4fdcc81252993e1c072f7c\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+76-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\240e82be4bf532f17f263d602a2ce92b\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
 77
 78        <activity
-78-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\dfda874e59ae708b9dea8d783cda1c4f\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+78-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\c4d610d9b141ff2195cee513ff65c647\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 79            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-79-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\dfda874e59ae708b9dea8d783cda1c4f\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+79-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\c4d610d9b141ff2195cee513ff65c647\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 80            android:exported="false"
-80-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\dfda874e59ae708b9dea8d783cda1c4f\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+80-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\c4d610d9b141ff2195cee513ff65c647\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 81            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-81-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\dfda874e59ae708b9dea8d783cda1c4f\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+81-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\c4d610d9b141ff2195cee513ff65c647\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 82
 83        <meta-data
-83-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\f7727c2d2c246e4bc121de73e7fffaaa\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+83-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\0c572d6e4078a9315f45e9dc676de649\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 84            android:name="com.google.android.gms.version"
-84-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\f7727c2d2c246e4bc121de73e7fffaaa\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+84-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\0c572d6e4078a9315f45e9dc676de649\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 85            android:value="@integer/google_play_services_version" />
-85-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\f7727c2d2c246e4bc121de73e7fffaaa\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+85-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\0c572d6e4078a9315f45e9dc676de649\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 86    </application>
 87
 88</manifest>
