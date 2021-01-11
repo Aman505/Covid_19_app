@@ -6,58 +6,58 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-9        android:targetSdkVersion="28" />
+9        android:targetSdkVersion="30" />
 10    <!--
 11         Flutter needs it to communicate with the running application
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:8:5-66
-14-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:8:22-64
+14-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:8:5-66
+14-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:8:22-64
 15    <!-- Include required permissions for Google Maps API to run. -->
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\240e82be4bf532f17f263d602a2ce92b\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
-16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\240e82be4bf532f17f263d602a2ce92b\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+16-->[com.google.android.gms:play-services-maps:17.0.0] /Users/deepakrattan/.gradle/caches/transforms-2/files-2.1/4ef1d41b8372c49a5651c8fd48bae511/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:17.0.0] /Users/deepakrattan/.gradle/caches/transforms-2/files-2.1/4ef1d41b8372c49a5651c8fd48bae511/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
 17
 18    <uses-feature
-18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\240e82be4bf532f17f263d602a2ce92b\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+18-->[com.google.android.gms:play-services-maps:17.0.0] /Users/deepakrattan/.gradle/caches/transforms-2/files-2.1/4ef1d41b8372c49a5651c8fd48bae511/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
 19        android:glEsVersion="0x00020000"
-19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\240e82be4bf532f17f263d602a2ce92b\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+19-->[com.google.android.gms:play-services-maps:17.0.0] /Users/deepakrattan/.gradle/caches/transforms-2/files-2.1/4ef1d41b8372c49a5651c8fd48bae511/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
 20        android:required="true" />
-20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\240e82be4bf532f17f263d602a2ce92b\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+20-->[com.google.android.gms:play-services-maps:17.0.0] /Users/deepakrattan/.gradle/caches/transforms-2/files-2.1/4ef1d41b8372c49a5651c8fd48bae511/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
 21
 22    <application
-22-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:9:5-50:19
+22-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:9:5-50:19
 23        android:name="io.flutter.app.FlutterApplication"
-23-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:10:9-57
+23-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:10:9-57
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.1.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\4a0892dfa16f91250dbd82aa1a8e53bd\core-1.1.0\AndroidManifest.xml:24:18-86
+24-->[androidx.core:core:1.1.0] /Users/deepakrattan/.gradle/caches/transforms-2/files-2.1/2a064e00f24799b8d40e00a9b1c2474c/core-1.1.0/AndroidManifest.xml:24:18-86
 25        android:debuggable="true"
 26        android:icon="@mipmap/ic_launcher"
-26-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:12:9-43
+26-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:12:9-43
 27        android:label="covid19app" >
-27-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:11:9-35
+27-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:11:9-35
 28        <meta-data
-28-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:13:9-15:70
+28-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:13:9-15:70
 29            android:name="com.google.android.geo.API_KEY"
-29-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:14:13-58
+29-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:14:13-58
 30            android:value="AIzaSyDJAY1wFsTpWswK634qKzp_GoDjdD4Pa8A" />
-30-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:15:13-68
+30-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:15:13-68
 31
 32        <activity
-32-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:16:9-44:20
+32-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:16:9-44:20
 33            android:name="com.example.covid19app.MainActivity"
-33-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:17:13-41
+33-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:17:13-41
 34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-34-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:20:13-163
+34-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:20:13-163
 35            android:hardwareAccelerated="true"
-35-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:21:13-47
+35-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:21:13-47
 36            android:launchMode="singleTop"
-36-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:18:13-43
+36-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:18:13-43
 37            android:theme="@style/LaunchTheme"
-37-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:19:13-47
+37-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:19:13-47
 38            android:windowSoftInputMode="adjustResize" >
-38-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:22:13-55
+38-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:22:13-55
 39
 40            <!--
 41                 Specifies an Android theme to apply to this Activity as soon as
@@ -66,11 +66,11 @@
 44                 to determine the Window background behind the Flutter UI.
 45            -->
 46            <meta-data
-46-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:27:13-30:17
+46-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:27:13-30:17
 47                android:name="io.flutter.embedding.android.NormalTheme"
-47-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:28:15-70
+47-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:28:15-70
 48                android:resource="@style/NormalTheme" />
-48-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:29:15-52
+48-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:29:15-52
 49            <!--
 50                 Displays an Android View that continues showing the launch screen
 51                 Drawable until Flutter paints its first frame, then this splash
@@ -79,21 +79,21 @@
 54                 Flutter's first frame.
 55            -->
 56            <meta-data
-56-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:36:13-39:17
+56-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:36:13-39:17
 57                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-57-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:37:15-79
+57-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:37:15-79
 58                android:resource="@drawable/launch_background" />
-58-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:38:15-61
+58-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:38:15-61
 59
 60            <intent-filter>
-60-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:40:13-43:29
+60-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:40:13-43:29
 61                <action android:name="android.intent.action.MAIN" />
-61-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:41:17-68
-61-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:41:25-66
+61-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:41:17-68
+61-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:41:25-66
 62
 63                <category android:name="android.intent.category.LAUNCHER" />
-63-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:42:17-76
-63-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:42:27-74
+63-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:42:17-76
+63-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:42:27-74
 64            </intent-filter>
 65        </activity>
 66        <!--
@@ -101,34 +101,42 @@
 68             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 69        -->
 70        <meta-data
-70-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:47:9-49:33
+70-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:47:9-49:33
 71            android:name="flutterEmbedding"
-71-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:48:13-44
+71-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:48:13-44
 72            android:value="2" />
-72-->D:\project\covid19app\android\app\src\main\AndroidManifest.xml:49:13-30
-73        <!-- Needs to be explicitly declared on P+ -->
-74        <uses-library
-74-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\240e82be4bf532f17f263d602a2ce92b\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
-75            android:name="org.apache.http.legacy"
-75-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\240e82be4bf532f17f263d602a2ce92b\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
-76            android:required="false" />
-76-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\240e82be4bf532f17f263d602a2ce92b\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
-77
-78        <activity
-78-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\c4d610d9b141ff2195cee513ff65c647\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-79            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-79-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\c4d610d9b141ff2195cee513ff65c647\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-80            android:exported="false"
-80-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\c4d610d9b141ff2195cee513ff65c647\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-81            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-81-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\c4d610d9b141ff2195cee513ff65c647\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-82
-83        <meta-data
-83-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\0c572d6e4078a9315f45e9dc676de649\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-84            android:name="com.google.android.gms.version"
-84-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\0c572d6e4078a9315f45e9dc676de649\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-85            android:value="@integer/google_play_services_version" />
-85-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Amandeep Singh Saini\.gradle\caches\transforms-2\files-2.1\0c572d6e4078a9315f45e9dc676de649\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-86    </application>
-87
-88</manifest>
+72-->/Users/deepakrattan/Prerna/Flutter/Covid_19_app/android/app/src/main/AndroidManifest.xml:49:13-30
+73
+74        <activity
+74-->[:url_launcher] /Users/deepakrattan/Prerna/Flutter/Covid_19_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+75            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+75-->[:url_launcher] /Users/deepakrattan/Prerna/Flutter/Covid_19_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+76            android:exported="false"
+76-->[:url_launcher] /Users/deepakrattan/Prerna/Flutter/Covid_19_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+77            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" /> <!-- Needs to be explicitly declared on P+ -->
+77-->[:url_launcher] /Users/deepakrattan/Prerna/Flutter/Covid_19_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+78        <uses-library
+78-->[com.google.android.gms:play-services-maps:17.0.0] /Users/deepakrattan/.gradle/caches/transforms-2/files-2.1/4ef1d41b8372c49a5651c8fd48bae511/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+79            android:name="org.apache.http.legacy"
+79-->[com.google.android.gms:play-services-maps:17.0.0] /Users/deepakrattan/.gradle/caches/transforms-2/files-2.1/4ef1d41b8372c49a5651c8fd48bae511/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+80            android:required="false" />
+80-->[com.google.android.gms:play-services-maps:17.0.0] /Users/deepakrattan/.gradle/caches/transforms-2/files-2.1/4ef1d41b8372c49a5651c8fd48bae511/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+81
+82        <activity
+82-->[com.google.android.gms:play-services-base:17.0.0] /Users/deepakrattan/.gradle/caches/transforms-2/files-2.1/d68152c6d40ba60c225bc0e9a0b94686/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+83            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+83-->[com.google.android.gms:play-services-base:17.0.0] /Users/deepakrattan/.gradle/caches/transforms-2/files-2.1/d68152c6d40ba60c225bc0e9a0b94686/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+84            android:exported="false"
+84-->[com.google.android.gms:play-services-base:17.0.0] /Users/deepakrattan/.gradle/caches/transforms-2/files-2.1/d68152c6d40ba60c225bc0e9a0b94686/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+85            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+85-->[com.google.android.gms:play-services-base:17.0.0] /Users/deepakrattan/.gradle/caches/transforms-2/files-2.1/d68152c6d40ba60c225bc0e9a0b94686/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+86
+87        <meta-data
+87-->[com.google.android.gms:play-services-basement:17.0.0] /Users/deepakrattan/.gradle/caches/transforms-2/files-2.1/6665a0e44f142c44a8eab877aa751dbf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+88            android:name="com.google.android.gms.version"
+88-->[com.google.android.gms:play-services-basement:17.0.0] /Users/deepakrattan/.gradle/caches/transforms-2/files-2.1/6665a0e44f142c44a8eab877aa751dbf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+89            android:value="@integer/google_play_services_version" />
+89-->[com.google.android.gms:play-services-basement:17.0.0] /Users/deepakrattan/.gradle/caches/transforms-2/files-2.1/6665a0e44f142c44a8eab877aa751dbf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+90    </application>
+91
+92</manifest>

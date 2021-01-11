@@ -1,47 +1,54 @@
+import 'package:audioplayers/audio_cache.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:audioplayers/audio_cache.dart';
-class First extends StatefulWidget {
+
+class Dashboard extends StatefulWidget {
   @override
-  _covidState createState() => _covidState();
+  _DashBoardState createState() => _DashBoardState();
 }
-class _covidState extends State<First> {
-  void Playsound() {
-   final player = AudioCache();
-   player.play('audio.mp3');
+
+class _DashBoardState extends State<Dashboard> {
+  void playSound() {
+    final player = AudioCache();
+    player.play('audio.mp3');
   }
-  Future<bool>_willpop()async{
-    return showDialog(context:context,
-    builder: (context)=>AlertDialog(
-      title: Text('Are you sure!'),
-      actions: [
-        FlatButton(
-          child: Text('yes'),
-          onPressed: (){
-            Navigator.pop(context,true);
-          },
-        ),
-        FlatButton(
-          child: Text('No'),
-          onPressed: (){
-            Navigator.pop(context,false);
-          },
-        ),
-      ],
-    ),);
+
+  Future<bool> _willPop() async {
+    return showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: Text('Are you sure!'),
+        actions: [
+          FlatButton(
+            child: Text('yes'),
+            onPressed: () {
+              Navigator.pop(context, true);
+            },
+          ),
+          FlatButton(
+            child: Text('No'),
+            onPressed: () {
+              Navigator.pop(context, false);
+            },
+          ),
+        ],
+      ),
+    );
   }
 
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
-      onWillPop:_willpop,
+      onWillPop: _willPop,
       child: Scaffold(
         extendBodyBehindAppBar: true,
-        body:Column(
+        body: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
             Image.asset('Images/Intro-image.jpg'),
-            SizedBox(height: 10.0,),
+            SizedBox(
+              height: 10.0,
+            ),
             Padding(
               padding: const EdgeInsets.all(10.0),
               child: Text(
@@ -54,35 +61,43 @@ class _covidState extends State<First> {
                 ),
               ),
             ),
-            SizedBox(height: 20.0, width: 0.0,),
+            SizedBox(
+              height: 20.0,
+              width: 0.0,
+            ),
             Container(
               child: Column(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.fromLTRB(0.0,10.0,0.0,10.0),
+                    padding: const EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 10.0),
                     child: ListTile(
                       leading: MyBullet(),
-                      title: Text('It will help you finding covid special hospitals '),
+                      title: Text(
+                          'It will help you finding covid special hospitals '),
                     ),
                   ),
-            Padding(
-              padding: const EdgeInsets.fromLTRB(0.0,10.0,0.0,10.0),
-              child: ListTile(
-                leading: MyBullet(),
-                title: Text('Will help you to track different locations of India'),
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 10.0),
+                    child: ListTile(
+                      leading: MyBullet(),
+                      title: Text(
+                          'Will help you to track different locations of India'),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 10.0),
+                    child: ListTile(
+                      leading: MyBullet(),
+                      title: Text(
+                          'We will make sure that you are always kept updated '),
+                    ),
+                  ),
+                ],
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.fromLTRB(0.0,10.0,0.0,10.0),
-              child: ListTile(
-                leading: MyBullet(),
-                title: Text('We will make sure that you are always kept updated '),
-              ),
+            SizedBox(
+              height: 50.0,
             ),
-              ],
-              ),
-            ),
-            SizedBox(height: 50.0,),
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
@@ -98,11 +113,12 @@ class _covidState extends State<First> {
                   color: Colors.blue[500],
                   onPressed: () {
                     setState(() {
-                      Playsound();
+                      playSound();
                       Navigator.pushNamed(context, '/second');
                     });
                   },
-                  child: Text('Get Started',
+                  child: Text(
+                    'Get Started',
                     style: TextStyle(
                       color: Colors.white,
                     ),
@@ -114,10 +130,10 @@ class _covidState extends State<First> {
         ),
       ),
     );
-
   }
 }
-class MyBullet extends StatelessWidget{
+
+class MyBullet extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Container(

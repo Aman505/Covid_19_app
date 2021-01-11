@@ -1,60 +1,91 @@
-class Hospitals{
+class Hospitals {
   bool success;
-  HospitalData hospitalData;
-  Hospitals({this.success,this.hospitalData});
-  factory Hospitals.fromjson(Map<String, dynamic> json){
-    return Hospitals(
-      success: json['success'],
-      hospitalData:json['data']
-    );
+  Data data;
+  String lastRefreshed;
+  String lastOriginUpdate;
+
+  Hospitals(
+      {this.success, this.data, this.lastRefreshed, this.lastOriginUpdate});
+
+  Hospitals.fromJson(Map<String, dynamic> json) {
+    success = json['success'];
+    data = json['data'] != null ? new Data.fromJson(json['data']) : null;
+    lastRefreshed = json['lastRefreshed'];
+    lastOriginUpdate = json['lastOriginUpdate'];
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['success'] = this.success;
+    if (this.data != null) {
+      data['data'] = this.data.toJson();
+    }
+    data['lastRefreshed'] = this.lastRefreshed;
+    data['lastOriginUpdate'] = this.lastOriginUpdate;
+    return data;
   }
 }
-class HospitalData {
-  List<MedicalColleges> medicalcolleges=new List<MedicalColleges>();
-  HospitalData({this.medicalcolleges});
-   HospitalData.fromjson(Map<String, dynamic> json){
-   // return HospitalData(
-     // medicalcolleges: List<MedicalColleges>.from(json['medicalColleges'].map((x)=>MedicalColleges.fromjson(x))),
-       if (json['medicalColleges'] != null) {
-     json['medicalColleges'].foreach((v){
-       medicalcolleges.add(new MedicalColleges.fromjson(v));
-     });
-   }
 
-     // );
-  // }
-  // Map<String,dynamic> toJson() {
-  //   return {
-  //   'medicalColleges': List<dynamic>.from(medicalcolleges.map((e) => e.toJson()))
-  // };
-}}
+class Data {
+  List<MedicalColleges> medicalColleges;
+  List<String> sources;
+
+  Data({this.medicalColleges, this.sources});
+
+  Data.fromJson(Map<String, dynamic> json) {
+    if (json['medicalColleges'] != null) {
+      medicalColleges = new List<MedicalColleges>();
+      json['medicalColleges'].forEach((v) {
+        medicalColleges.add(new MedicalColleges.fromJson(v));
+      });
+    }
+    sources = json['sources'].cast<String>();
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    if (this.medicalColleges != null) {
+      data['medicalColleges'] =
+          this.medicalColleges.map((v) => v.toJson()).toList();
+    }
+    data['sources'] = this.sources;
+    return data;
+  }
+}
+
 class MedicalColleges {
   String state;
   String name;
   String city;
   String ownership;
-  String hospitalBeds;
+  int admissionCapacity;
+  int hospitalBeds;
 
   MedicalColleges(
-      {this.state, this.name, this.city, this.ownership, this.hospitalBeds});
+      {this.state,
+      this.name,
+      this.city,
+      this.ownership,
+      this.admissionCapacity,
+      this.hospitalBeds});
 
-  factory MedicalColleges.fromjson(Map<String, dynamic> json){
-    return MedicalColleges(
-        state: json['state'].toString(),
-        name: json['name'].toString(),
-        city: json['city'].toString(),
-        ownership: json['ownership'].toString(),
-        hospitalBeds: json['hospitalBeds'].toString()
-    );
+  MedicalColleges.fromJson(Map<String, dynamic> json) {
+    state = json['state'];
+    name = json['name'];
+    city = json['city'];
+    ownership = json['ownership'];
+    admissionCapacity = json['admissionCapacity'];
+    hospitalBeds = json['hospitalBeds'];
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['state'] = this.state;
+    data['name'] = this.name;
+    data['city'] = this.city;
+    data['ownership'] = this.ownership;
+    data['admissionCapacity'] = this.admissionCapacity;
+    data['hospitalBeds'] = this.hospitalBeds;
+    return data;
   }
 }
-//   Map<String,dynamic> toJson() {
-//     return {
-//       'state': state,
-//       'name': name,
-//       'city': city,
-//       'ownership': ownership,
-//       'hospitalBeds': hospitalBeds,
-//     };
-//   }
-// }

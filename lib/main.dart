@@ -6,13 +6,12 @@ import 'package:flutter/rendering.dart';
 import 'package:covid19app/second.dart';
 
 import 'Help.dart';
-void main()=> runApp(MaterialApp(
-  debugShowCheckedModeBanner: false,
-  initialRoute: '/',
-  routes: {
-    '/' : (context)=>Splash(),
-    '/second': (context)=>second(),
-  },
-));
 
-
+void main() => runApp(MaterialApp(
+      debugShowCheckedModeBanner: false,
+      initialRoute: '/',
+      routes: {
+        '/': (context) => Splash(),
+        '/second': (context) => CovidTracker(),
+      },
+    ));
