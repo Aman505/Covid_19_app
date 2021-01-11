@@ -37,7 +37,7 @@ class _ContactsListState extends State<ContactsList> {
         appBar: AppBar(
           leading: IconButton(
             icon: Icon(Icons.arrow_back),
-            color: Colors.black,
+            color: Colors.white,
             onPressed: () {
               Navigator.pop(context);
             },
@@ -46,7 +46,7 @@ class _ContactsListState extends State<ContactsList> {
           title: Text(
             'Covid Tracker',
             style: TextStyle(
-              color: Colors.black,
+              color: Colors.white,
               fontSize: 20.0,
               fontWeight: FontWeight.bold,
             ),

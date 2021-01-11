@@ -5,19 +5,23 @@ class Precautions extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: IconButton(icon: Icon(Icons.arrow_back),color: Colors.black,
-          onPressed: (){
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back),
+          color: Colors.white,
+          onPressed: () {
             Navigator.pop(context);
           },
         ),
-        title:Text('Precautions',
+        centerTitle: true,
+        title: Text(
+          'Precautions',
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 25.0,
-            color: Colors.black,
+            color: Colors.white,
           ),
         ),
-        backgroundColor: Colors.lightBlueAccent,
+        backgroundColor: Colors.blue[300],
         elevation: 0,
       ),
       extendBodyBehindAppBar: false,
@@ -26,35 +30,41 @@ class Precautions extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-
               ClipRRect(
                 child: Hero(
                   tag: 'location2-img',
-                  child: Image.asset('Images/precautions.png',
+                  child: Image.asset(
+                    'Images/precautions.png',
                     height: 300.0,
                     fit: BoxFit.cover,
                     alignment: Alignment.topLeft,
                   ),
                 ),
               ),
-              SizedBox(height: 20.0,),
+              SizedBox(
+                height: 20.0,
+              ),
               Padding(
                 padding: const EdgeInsets.all(10.0),
-                child: Text('To prevent the spread of COVID-19:',
+                child: Text(
+                  'To prevent the spread of COVID-19:',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 25.0,
                   ),
                 ),
               ),
-              SizedBox(height: 20.0,),
+              SizedBox(
+                height: 20.0,
+              ),
               Card(
                 child: ListTile(
                   leading: ClipRRect(
                     borderRadius: BorderRadius.circular(3.0),
                     child: Image.asset('Images/washing-hands.png'),
                   ),
-                  title: Text('Clean your hands often. Use soap and water, or an alcohol-based hand rub.',
+                  title: Text(
+                    'Clean your hands often. Use soap and water, or an alcohol-based hand rub.',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 17.0,
@@ -62,14 +72,17 @@ class Precautions extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(height: 10.0,),
+              SizedBox(
+                height: 10.0,
+              ),
               Card(
                 child: ListTile(
                   leading: ClipRRect(
                     borderRadius: BorderRadius.circular(3.0),
                     child: Image.asset('Images/social-distancing.png'),
                   ),
-                  title: Text('Maintain a safe distance from anyone who is coughing or sneezing.',
+                  title: Text(
+                    'Maintain a safe distance from anyone who is coughing or sneezing.',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 17.0,
@@ -77,14 +90,17 @@ class Precautions extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(height: 10.0,),
+              SizedBox(
+                height: 10.0,
+              ),
               Card(
                 child: ListTile(
                   leading: ClipRRect(
                     borderRadius: BorderRadius.circular(3.0),
                     child: Image.asset('Images/face-mask.png'),
                   ),
-                  title: Text('Wear a mask when physical distancing is not possible.',
+                  title: Text(
+                    'Wear a mask when physical distancing is not possible.',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 17.0,
@@ -92,14 +108,17 @@ class Precautions extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(height: 10.0,),
+              SizedBox(
+                height: 10.0,
+              ),
               Card(
                 child: ListTile(
                   leading: ClipRRect(
                     borderRadius: BorderRadius.circular(3.0),
                     child: Image.asset('Images/doctor.png'),
                   ),
-                  title: Text('If you have a fever, cough and difficulty breathing, seek medical attention.',
+                  title: Text(
+                    'If you have a fever, cough and difficulty breathing, seek medical attention.',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 17.0,
@@ -107,7 +126,6 @@ class Precautions extends StatelessWidget {
                   ),
                 ),
               ),
-
             ],
           ),
         ),

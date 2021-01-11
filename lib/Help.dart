@@ -13,12 +13,17 @@ class _HelpState extends State<Help> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: Text(
           'Help guide',
           style: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 25.0,
             color: Colors.white,
           ),
         ),
+        backgroundColor: Colors.blue[300],
+        elevation: 0,
       ),
       body: Container(
         child: Column(

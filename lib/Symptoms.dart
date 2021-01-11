@@ -8,20 +8,21 @@ class Symptoms extends StatelessWidget {
       appBar: AppBar(
         leading: IconButton(
           icon: Icon(Icons.arrow_back),
-          color: Colors.black,
+          color: Colors.white,
           onPressed: () {
             Navigator.pop(context);
           },
         ),
+        centerTitle: true,
         title: Text(
           'Symptoms',
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 25.0,
-            color: Colors.black,
+            color: Colors.white,
           ),
         ),
-        backgroundColor: Colors.greenAccent,
+        backgroundColor: Colors.blue[300],
         elevation: 0,
       ),
       extendBodyBehindAppBar: false,
